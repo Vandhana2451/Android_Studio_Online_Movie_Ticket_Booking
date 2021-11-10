@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_movie"
+    tools:context=".MainActivity"
+    tools:ignore="SpeakableTextPresentCheck">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="230dp"
+            android:layout_height="48dp"
+            android:layout_gravity="right"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:gravity="left"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="  "
+            android:textColor="@color/yellow"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.944"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.002"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ViewFlipper
+            android:id="@+id/v_flipper"
+            android:layout_width="410dp"
+            android:layout_height="243dp"
+            android:layout_centerHorizontal="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"></ViewFlipper>
+
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="30dp" />
+
+        <ImageButton
+            android:id="@+id/annaathe"
+            android:layout_width="253dp"
+            android:layout_height="303dp"
+            android:layout_gravity="center"
+            android:background="@drawable/annaatthev"
+            android:paddingTop="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:textColor="@color/yellow"
+            android:drawableRight="@drawable/heart"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="              ANNAATTHE               91%"/>
+
+
+
+        <ImageButton
+            android:id="@+id/maanaadu"
+            android:layout_width="253dp"
+            android:layout_height="303dp"
+            android:layout_gravity="center"
+            android:background="@drawable/maanaduv"
+            android:paddingTop="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:textColor="@color/yellow"
+            android:gravity="center"
+            android:drawableRight="@drawable/heart"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="               MAANAADU             81%"/>
+
+        <ImageButton
+            android:id="@+id/doctor"
+            android:layout_width="253dp"
+            android:layout_height="303dp"
+            android:layout_gravity="center"
+            android:background="@drawable/doctorv"
+            android:paddingTop="50dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <TextView
+            android:layout_width="360dp"
+            android:layout_height="59dp"
+            android:textColor="@color/yellow"
+            android:drawableRight="@drawable/heart"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="                DOCTOR                    95%"/>
+    </LinearLayout>
+
+</ScrollView>

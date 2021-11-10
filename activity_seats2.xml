@@ -1,0 +1,1397 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_movie"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="409dp"
+                android:layout_height="1000dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/username"
+                    android:layout_width="230dp"
+                    android:layout_height="48dp"
+                    android:layout_gravity="right"
+                    android:drawableLeft="@drawable/ic_baseline_person_24"
+                    android:gravity="left"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="10dp"
+                    android:text="  "
+                    android:textColor="@color/yellow"
+                    android:textSize="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.944"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.002"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/yellow"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="20dp"
+                    android:text="Gold Rs.100"/>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   A    "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/A1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/A2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/A3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/A4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/A5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/A6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/A7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/A8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/A9"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A9"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <CheckBox
+                        android:id="@+id/A10"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="A10"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   B    "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/B1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/B2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B9"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B9"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/B10"
+                        android:layout_width="60dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="B10"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   C   "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/C1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/C2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/C3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/C4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp" />
+
+                    <CheckBox
+                        android:id="@+id/C5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/C6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/C7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/C8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="C8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   D    "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/D1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/D2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/D3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/D4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="150dp" />
+
+
+                    <CheckBox
+                        android:id="@+id/D5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/D6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/D7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/D8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="D8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   E    "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/E1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/E2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E9"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E9"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/E10"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="E10"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   F   "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/F1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/F2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F9"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F9"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/F10"
+                        android:layout_width="70dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="F10"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Silver Rs.60"
+                    android:textColor="@color/yellow"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   G   "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/G1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/G2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/G3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/G4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                    <CheckBox
+                        android:id="@+id/G5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/G6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/G7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/G8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="G8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="670dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:text="   H   "
+                        android:textColor="@color/yellow"
+                        android:textSize="20dp" />
+
+                    <CheckBox
+                        android:id="@+id/H1"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H1"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                    <CheckBox
+                        android:id="@+id/H2"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H2"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/H3"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H3"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/H4"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H4"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                    <CheckBox
+                        android:id="@+id/H5"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H5"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/H6"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H6"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/H7"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H7"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+                    <CheckBox
+                        android:id="@+id/H8"
+                        android:layout_width="50dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="10dp"
+                        android:button="@drawable/ic_baseline_event_seat_24"
+                        android:text="H8"
+                        android:textColor="@color/yellow"
+                        android:textSize="15dp"
+                        android:theme="@style/checkbox"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.268" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="400dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp" />
+
+                <TextView
+                    android:layout_width="500dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="50dp"
+                    android:background="@drawable/screen"
+                    android:gravity="center_horizontal"
+                    android:text="Screen    in    this   way"
+                    android:textColor="@color/yellow"
+                    android:textSize="20dp"
+                    android:textStyle="italic" />
+
+
+                <Button
+                    android:id="@+id/selectseat"
+                    android:layout_width="235dp"
+                    android:layout_height="46dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="100dp"
+                    android:background="@drawable/button"
+                    android:text="Submit"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>
